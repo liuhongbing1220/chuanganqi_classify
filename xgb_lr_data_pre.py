@@ -1,3 +1,11 @@
+'''
+@Description: 
+@Version: 2.0
+@Autor: lhb
+@Date: 2019-07-18 21:51:25
+@LastEditors: lhb
+@LastEditTime: 2020-03-11 17:59:28
+'''
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -27,8 +35,5 @@ label = pd.Series(np.loadtxt(os.path.join(train_X_path, "y_train.txt")))
 
 
 data = pd.concat([X_trainS1_x,X_trainS1_y,X_trainS1_z], axis=1)
-
-
-
 
 train_x, test_x, train_y, test_y = train_test_split(data, label, test_size = 0.3, random_state=0)
