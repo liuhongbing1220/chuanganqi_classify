@@ -22,16 +22,20 @@ def read_data(file_path):
     return data
 
 def read_data3():
-    pass
+    print("3_v2")
 
 def read_data5():
-    print("my")
+    print("5_v2")
 
 def read_data4():
-    println("hello world")
+    println("4_v2_hello world")
 
 def read_data6():
     pass
+
+
+def read_data_v2():
+    print("v2")
 
 # 数据标准化
 def feature_normalize(dataset):
