@@ -31,6 +31,16 @@ def read_data4():
 
 def read_data5():
     pass
+
+
+def read_data_6():
+    print("aaa")
+
+
+def read_data_v1():
+    print("v1-new")
+
+
 # 数据标准化
 def feature_normalize(dataset):
     mu = np.mean(dataset, axis=0)
