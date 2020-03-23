@@ -24,6 +24,15 @@ def read_data(file_path):
 def read_data3():
     pass
 
+def read_data5():
+    print("my")
+
+def read_data4():
+    println("hello world")
+
+def read_data6():
+    pass
+
 # 数据标准化
 def feature_normalize(dataset):
     mu = np.mean(dataset, axis=0)
