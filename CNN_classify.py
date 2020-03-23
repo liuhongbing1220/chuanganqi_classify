@@ -34,8 +34,26 @@ def read_data6():
     pass
 
 
+<<<<<<< HEAD
 def read_data_v2():
     print("v2")
+=======
+def read_data4():
+    pass
+
+
+def read_data5():
+    pass
+
+
+def read_data_6():
+    print("aaa")
+
+
+def read_data_v1():
+    print("v1-new")
+
+>>>>>>> lhb_dev1
 
 # 数据标准化
 def feature_normalize(dataset):
